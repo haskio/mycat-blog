@@ -1,0 +1,96 @@
+body {
+    padding-top: 60px;
+}
+
+h1 {
+    font-size: 24px;
+}
+
+h1 small {
+    font-size: 14px;
+}
+
+h2 {
+    font-size: 22px;
+}
+
+h3 {
+    font-size: 20px;
+}
+
+p, ul {
+	margin-bottom: 1.5em;
+}
+
+blockquote p {
+	margin-bottom: 0;
+    font-size: 12px;
+    color: #999999;
+}
+
+#footer {
+    padding-top: 50px;
+    text-align: center;
+}
+
+#take-part h1 {
+    font-size: 32px;
+}
+
+#take-part h2 {
+    margin: 0.7em 0;
+    font-size: 18px;
+}
+
+#take-part p {
+    margin: 10px 0 25px;
+    font-size: 16px;
+}
+
+#take-part dl {
+    margin-left: 30px;
+}
+
+#take-part dd {
+    padding: 5px 0 25px;
+}
+
+#take-part dd.last {
+    padding-bottom: 0;
+}
+
+#take-part dd.other {
+    font-size: 12px;
+    font-family: simsun;
+}
+
+#take-part dd.other strong {
+    font-weight: normal;
+    color: #0088CC;
+}
+
+.home-list {
+    padding-left: 10px;
+}
+
+.home-list h2 {
+    font-size: 16px;
+}
+
+.home-list li {
+    margin-bottom: 7px;
+}
+
+.contribIndex h2 {
+    margin-bottom: 15px;
+    font-size: 18px;
+    font-style: italic;
+}
+
+.contribIndex .row {
+    margin-bottom: 50px;
+}
+
+#uyan_frame {
+    margin-top: 50px;
+}

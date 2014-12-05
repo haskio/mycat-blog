@@ -1,0 +1,24 @@
+<div class="navbar navbar-fixed-top">
+    <div class="navbar-inner">
+        <div class="container">
+            <a class="brand" href="/">Mycat</a>
+
+            <ul id="topnav" class="nav">
+                <li{% if page.nav == 'home' %} class="active"{% endif %}><a href="/">首页</a></li>
+                <li{% if page.nav == 'news' %} class="active"{% endif %}><a href="/news/">新闻</a></li>
+                <li{% if page.nav == 'releases' %} class="active"{% endif %}><a href="/releases/">版本</a></li>
+
+                <li><a href="/docs/">下载资源</a></li>
+                <li{% if page.nav == 'document' %} class="active"{% endif %}><a href="/document/">文档库</a></li>
+                <li{% if page.nav == 'activity' %} class="active"{% endif %}><a href="/activity/" target="_blank">活动</a></li>
+                <!--<li><a href="http://segmentfault.com/t/mycat" target="_blank">去SegmentFault提问</a></li>-->
+            </ul>
+
+            <ul class="nav pull-right">
+                <li{% if page.nav == 'pay' %} class="active"{% endif %}><a href="/contact.html">捐助</a></li>
+			    <li{% if page.nav == 'about' %} class="active"{% endif %}><a href="/contribute/">关于</a></li>
+
+            </ul>
+        </div>
+    </div>
+</div>

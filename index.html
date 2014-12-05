@@ -1,0 +1,70 @@
+---
+layout: page
+meta_keywords: MyCAT,MyCAT sql,tddl ,Mycat文档,Mycat文档教程,Mycat下载,Mycat开发进度，Cobar下一代。
+meta_description:   MyCAT是在阿里开源的Cobar之上的全新的下一代云端数据库，基于MySQL，支持智能分片算法等，实现分布式数据库产品的功能特征，同时又规避传统分布式数据库产品的缺陷。
+nav: home
+---
+
+<div class="alert alert-success">
+    如果你有与Mycat相关的问题，可以在官方QQ群进行提问，基本大牛都在那里蹲点，群号：106088787 ;)
+</div>
+
+<div id="take-part" class="hero-unit">
+    <div class="row">
+        <div class="span6">
+            <h1>项目开发招募</h1>
+            <h2 class="muted">@Mycat用户们</h2>
+            <p>正在评估、学习或者使用Mycat的爱好者和使用者，Mycat期盼你的加入。你一定会有收获——因为任何成功的开源项目，都与投身其中的开发者共同进步。算你一个？</p>
+            <a href="/contribute/" class="btn btn-primary btn-large">了解详情 &raquo;</a>
+        </div>
+
+        <div class="span4">
+            <dl>
+                <dt>参与开发和文档完善</dt>
+                <dd>
+                    <iframe class="github-btn" src="http://ghbtns.com/github-btn.html?user=MyCATApache&repo=MyCAT-Server&type=watch&count=true" width="112px" height="20px" frameborder="0" allowtransparency="true" scrolling="0"></iframe>
+                    
+                    <iframe class="github-btn" src="http://ghbtns.com/github-btn.html?user=MyCATApache&repo=MyCAT-Server&type=fork&count=true" width="98px" height="20px" frameborder="0" allowtransparency="true" scrolling="0"></iframe>
+                </dd>
+          
+
+                <dt>或者……</dt>
+                <dd class="last other">
+                    加入QQ群：106088787<br>
+                 
+                </dd>
+            </dl>
+        </div>
+    </div>
+</div>
+
+<div class="row">
+    <div class="span8">
+        <div class="home-list">
+			 <h2>最新新闻</h2>
+            <ul class="unstyled">
+                {% for post in site.categories.news %}
+                <li><span class="muted">{{ post.date | date: "%Y-%m-%d" }}</span> <a href="{{ post.url }}">{{ post.title }}</a></li>
+                {% endfor %}
+            </ul>
+			  <h2>项目进展</h2>
+            <ul class="unstyled">
+                {% for post in site.categories.releases %}
+                <li><span class="muted">{{ post.date | date: "%Y-%m-%d" }}</span> <a href="{{ post.url }}">{{ post.title }}</a></li>
+                {% endfor %}
+            </ul>
+        </div>
+    </div>
+
+    <div class="span4">
+        <div class="home-list">
+            <h2>友情链接</h2>
+
+            <ul class="unstyled">
+                <li><a href="http://www.mysql.com" target="_blank">Mysql</a></li>
+      
+           
+            </ul>
+        </div>
+    </div>
+</div>
