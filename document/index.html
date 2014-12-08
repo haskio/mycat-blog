@@ -1,0 +1,17 @@
+---
+layout: page
+meta_keywords: MyCAT,MyCAT sql,tddl ,Mycat文档,Mycat文档教程,Mycat下载,Mycat开发进度，Cobar下一代。
+meta_description:   MyCAT是在阿里开源的Cobar之上的全新的下一代云端数据库，基于MySQL，支持智能分片算法等，实现分布式数据库产品的功能特征，同时又规避传统分布式数据库产品的缺陷。
+nav: document
+---
+
+
+<div class="page-header">
+    <h1>文档库  <small>Mycat开发进度和活动</small></h1>
+</div>
+
+<ul class="posts">
+    {% for post in site.categories.document %}
+    <li><span>{{ post.date | date: "%Y-%m-%d" }}</span> &raquo; <a href="{{ post.url }}">{{ post.title }}</a></li>
+    {% endfor %}
+</ul>
